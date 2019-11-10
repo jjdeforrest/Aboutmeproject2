@@ -1,5 +1,7 @@
 'use strict';
 
+
+
     var user = prompt('What is your name Joker');
     //console.log('user', user);
     var upper = user.toUpperCase();
@@ -15,15 +17,19 @@
         alert('try again');
     }
 }
+questionOne();
+
     function questionTwo(){
     var state = prompt('Am I from South Carolina');
     //console.log('state', state);
     var region = state.toLowerCase();
     if (region === 'yes'){
         alert('correct');
-    } else{s
+    } else{
         alert('try again');
     }
+}
+questionTwo();
 
     function questionThree(){
     var marines = prompt('Was I in the Marines');
@@ -35,6 +41,7 @@
         alert('try again');
     }
 }
+questionThree();
 
    function questionFour(){
     var work = prompt('Was I in construction');
@@ -46,6 +53,8 @@
         alert('try again');
     }
 }
+questionFour();
+
 function questionFive(){    
 var degree = prompt('Do I have a degree');
     //console.log('degree', degree);
@@ -56,6 +65,8 @@ var degree = prompt('Do I have a degree');
         alert('try again');
     }
 }
+questionFive();
+
     function questionSix(){
    var question = 5;
    var counter = 4;
@@ -79,19 +90,18 @@ var degree = prompt('Do I have a degree');
         }
     }
     }
+questionSix();
     function questionSeven(){
     var degree= ['bachelor', 'business'];
 
     for (var i=0; i < 7; i++){
         var answer1 = prompt('what type of degree did you have');
         if (degree.includes(answer1)) {
-            alert('nice job');
+            alert('Welcome to the Joker Revolt '+ user + ' you quessed ' + answer1 + ' out of 2 ');
             break;
         } else{
             alert('try again');
         }
     }
-}
-
-    alert('Welcome to the Joker Revolt '+ user + 'you quessed ' + answer1 + 'out of 2 ');
-
+    }
+questionSeven();
