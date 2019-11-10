@@ -86,3 +86,4 @@
     }
 
     alert('Welcome to the Joker Revolt '+ user + 'you quessed ' + answer1 + 'out of 2 ');
+
